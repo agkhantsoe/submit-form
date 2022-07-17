@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>submit-form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" class="submit-form">
+      <i>
+       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+      </i>
+      <div class="container">
+        <h1>Send Us a Message</h1>
+
+        <label for="name-input">Full name</label>
+        <input type="text" id="name-input" placeholder="" />
+
+        <label for="email-input">Your email</label>
+        <input type="email" id="email-input" placeholder="" />
+
+        <select name="" id="requests">
+          <option value="">I want to post</option>
+        </select>
+        <textarea
+          name=""
+          id="message-box"
+          placeholder="Your message goes here"
+          cols="30"
+          rows="10"
+        ></textarea>
+
+        <button>Submit Form</button>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
